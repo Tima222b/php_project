@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD']==='POST') {
 ?>
 
 <link rel="stylesheet" href="assets/css/style.css">
-<h2>Вход</h2>
+<h2 style="text-align:center;">Вход</h2>
 <form method="POST">
     <input type="text" name="login" placeholder="Email или телефон" required>
     <input type="password" name="password" placeholder="Пароль" required>

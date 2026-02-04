@@ -40,7 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ?>
 
 
-<h2>Регистрация</h2>
+<h2 style=text-align:center;>Регистрация</h2>
 <form method="POST">
     <input type="text" name="name" placeholder="Имя" required>
     <input type="email" name="email" placeholder="Email" required>
